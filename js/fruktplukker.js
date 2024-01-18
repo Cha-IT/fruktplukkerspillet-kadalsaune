@@ -41,14 +41,14 @@ function nyFrukt()
         gameOverScreen.style.fontSize = "10vw";
         gameOverScreen.style.fontWeight = "bold";
         gameOverScreen.style.textAlign = "center";
-        // const restartButton = document.createElement("button");
-        // restartButton.className = "btn btn-primary"
-        // restartButton.innerHTML = "Klikk her for å starte på nytt"
-        // restartButton.addEventListener("click", () => {
+    //     const restartButton = document.createElement("button");
+    //     restartButton.className = "btn btn-primary"
+    //     restartButton.innerHTML = "Klikk her for å starte på nytt"
+    //     restartButton.addEventListener("click", () => {
         
-        // main.removeChild(gameOverScreen);
+    //     main.removeChild(gameOverScreen);
         
-    })
+    // })
 
         main.appendChild(gameOverScreen);
         gameOverScreen.appendChild(restartButton);
