@@ -169,7 +169,7 @@ function startGame(){
                 if(frect.bottom > rect.bottom){
                     
                     fruktToRemove.push(frukt);
-                    main.removeChild(frukt);
+                    
                     missedFrukt++;
                     
                 }
@@ -182,6 +182,7 @@ function startGame(){
             // Fjerner frukt fra arrayen fruktArr
             for(const frukt of fruktToRemove)
             {
+                main.removeChild(frukt);
                 const i = fruktArr.indexOf(frukt)
                 const x = fruktArr.splice(i, 1);
             }
