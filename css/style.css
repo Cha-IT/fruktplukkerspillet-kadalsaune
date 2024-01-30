@@ -1,0 +1,33 @@
+/* *{
+    border: red solid 1px;
+} */
+
+body{
+    background-image: url(../img/tree.jpg);
+    background-size: cover;
+}
+
+main{
+     /* border: red solid 1px;  */
+    position: relative;
+    width: 90vw;
+    height: 90vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    /* overflow: hidden; */
+}
+ 
+.dropAnimation{
+    animation: drop 2s linear 2s 1 normal
+}
+
+@keyframes drop{
+    from{top:-15vh;}
+    to{top: 100vh;}
+}
+
